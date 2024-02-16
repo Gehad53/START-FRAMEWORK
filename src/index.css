@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home{
+  background-color: #1abc9c;
+}
+.color{
+  color: white;
+}
+.background{
+  background-color: white;
+}
+.line{
+  height: 4px;
+  width: 80px;
+}
+.card-group{
+  background-color: gray;
+  display: flex;
+  flex-flow: row wrap;
+}
+.p{
+  background-color: #1a252f;
+  padding: 10px;
+  color: white;
+}
+.about{
+  background-color: #1abc9c;
+}
+.colorr{
+  color: rgb(44, 62, 80);
+}
+.backgroundd{
+  background-color: rgb(44, 62, 80);
+}
+layer__{
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: .6s opacity;
+}
+model__{
+  z-index: 9999;
+}
+.__top{
+  top: 40px!important;
+}
+.buttonn{
+  background-color: #1abc9c;
+}
+button:focus-visible{
+  outline: 0;
+  background-color: #1abc9c;
+}
+.icon{
+  border: 1px black solid;
+  border-radius: 50%;
+  padding: 10px;
+}
